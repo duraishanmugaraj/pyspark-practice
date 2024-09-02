@@ -21,4 +21,6 @@
 #     --role Admin \
 #     --email admin@example.com || { echo "Failed to create Airflow admin user"; }
 
+docker pull docker.io/apache/spark:3.5.2-scala2.12-java11-python3-r-ubuntu
+
 echo "Setup completed successfully"
